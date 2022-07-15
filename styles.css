@@ -105,7 +105,7 @@ body {
 }
 
 .section {
-  padding: calc(5rem + var(--header-height) 0);
+  padding: calc(5rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -651,13 +651,17 @@ footer .logo {
   font-size: 2.25rem;
 }
 }
+
+/*MEDIA QUERIES*/
+
 /* large devices: 1023 > */
 /* large devices: 992 > */
+
 @media (min-width: 992px) {
 :root {
   --title-font-size: 2.25rem;
   --subtitle-font-size: 1.125rem;
-}
+  }
 }
 
 
